@@ -1,21 +1,29 @@
 @font-face {
-  font-family: 'Inter var';
+  font-family: 'Monoid';
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 400;
   font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
+  src: url(/fonts/Monoid/Monoid-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Inter var';
+  font-family: 'Monoid';
   font-style: italic;
   font-weight: 100 900;
   font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
+  src: url(/fonts/Monoid/Monoid-Italic.ttf) format('truetype');
   font-named-instance: 'Italic';
+}
+@font-face {
+  font-family: 'Monoid';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: block;
+  src: url(/fonts/Monoid/Monoid-Bold.ttf) format('truetype');
+  font-named-instance: 'Bold';
 }
 
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
+  font-family: 'Monoid', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: subpixel-antialiased;
@@ -23,7 +31,6 @@ body {
     'cv03' 1, 'cv04' 1;
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
 }
 b,
 strong,
@@ -58,6 +65,7 @@ img.next-image {
 
 .prose a {
   color: #0074de;
+  font-weight: bold;
 }
 
 .nav-line .nav-link {
