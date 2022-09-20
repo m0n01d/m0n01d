@@ -65,7 +65,6 @@ img.next-image {
 
 .prose a {
   color: #0074de;
-  font-weight: bold;
 }
 
 .nav-line .nav-link {
@@ -87,4 +86,12 @@ img.next-image {
     ),
     center no-repeat url('/images/me.jpg');
   z-index: -1;
+}
+
+.prose img {
+  border-radius: 1.75rem 0 1.75rem 0;
+}
+
+.post-item .post-item-date {
+  font-size: 0.75rem;
 }
