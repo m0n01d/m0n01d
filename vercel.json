@@ -3,6 +3,10 @@
     {
       "source": "/dg-yt",
       "destination": "https://www.youtube.com/playlist?list=PLJpGrUNdasttfP9PgimEIOUksCAHsW9r3"
+    },
+    {
+      "source": "/vidya",
+      "destination": "https://www.youtube.com/@m0n01d"
     }
   ]
 }
