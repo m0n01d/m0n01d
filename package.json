@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider ./scripts/gen-rss.js && next build",
     "start": "export NODE_OPTIONS=--openssl-legacy-provider next start"
   },
   "dependencies": {
